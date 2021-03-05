@@ -1,0 +1,152 @@
+html{ 
+    background-color: white;
+}
+.hr1{
+  border: 10px dotted white;
+  width: 5%;
+  border-right: 0;
+  border-bottom: 0;
+  margin-top: 10px;
+}
+
+.main-title-p{
+    width: 50%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight:300;
+    text-align: center;
+}
+body {
+    margin: 0;
+    background-color: white;
+    text-align: center; 
+
+}
+.title-name{
+    width: 50%;
+    margin: 50px auto 10px auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem; 
+           
+}
+
+.main-img{
+    width: 45%;
+    margin: 20px auto;
+}
+.top-container{
+    background-color: white; 
+    text-align: center;  
+    width: 100%;
+}
+
+.profile-p{
+    line-height: 2;
+    width: 50%;
+    margin: auto;
+}
+
+.robust-digital:hover{
+    color:rgb(4, 110, 93)
+}
+.mypic{
+    width: 20%;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.middle-container{
+    background-color: black;
+}
+
+
+.skill-row { 
+    width:50%;
+    margin: 80px auto 80px;
+}
+
+.my-Skills {
+    color: white;
+}
+
+.skills {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    
+}
+.img-webdev { 
+    width: 25%;
+    float:left;
+    margin: 25px;
+}
+
+.img-freelancer { 
+        width: 25%;
+        float: right;
+        margin: 25px
+}
+.skills p{
+    font-size:medium;
+    font-weight:300;
+    line-height: 1.5;
+    color: white;
+}
+
+.skills h3{
+    font-weight:bold;
+    color: white;
+}
+.profile {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+}
+.bottom-container{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.contact-me{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 50%;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    height: auto;
+}
+
+    .contact-me-btn{
+        margin-top: 35px;
+    }
+
+.footer-img{
+    width: 30px;
+    margin: 20px 10px 10px 10px;
+    
+}
+
+a .footer-link,.footer-p {
+    color:#808080;
+    margin-top: 1px;
+}
+
+
+.btn {
+    -webkit-border-radius: 23;
+    -moz-border-radius: 23;
+    border-radius: 23px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    background: #000000;
+    padding: 10px 20px 10px 20px;
+    border: solid #ffffff 2px;
+    text-decoration: none;
+}
+  
+  .btn:hover {
+    background:rgb(4, 110, 93);
+    text-decoration: none;
+  }
+  
+ 
