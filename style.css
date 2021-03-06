@@ -112,12 +112,17 @@ body {
     width: 50%;
     margin: 0 auto 20px auto;
     text-align: center;
-    height: auto;
+    height: 300px;
+    position: relative;
 }
 
     .contact-me-btn{
-        margin-top: 35px;
-    }
+        position: absolute;
+        top:80%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
 
 .footer-img{
     width: 30px;
@@ -142,6 +147,7 @@ a .footer-link,.footer-p {
     padding: 10px 20px 10px 20px;
     border: solid #ffffff 2px;
     text-decoration: none;
+    transition: background-color 0.3s;
 }
   
   .btn:hover {
@@ -149,4 +155,24 @@ a .footer-link,.footer-p {
     text-decoration: none;
   }
   
- 
+ .bottom-container > #i01:hover
+  {
+    content: url(assets/linkedin-black.svg);
+    width: 30px;
+    margin: 20px 10px 10px 10px;
+
+ }
+ .bottom-container > #i02:hover
+  {
+    content: url(assets/twitter-black.svg);
+    width: 30px;
+    margin: 20px 10px 10px 10px;
+
+ }
+ .bottom-container > #i03:hover
+  {
+    content: url(assets/github-black.svg);
+    width: 30px;
+    margin: 20px 10px 10px 10px;
+
+ }
